@@ -1,12 +1,11 @@
 {
-  "name": "http-browserify",
+  "name": "http",
   "version": "1.7.0",
   "description": "http module compatability for browserify",
   "main": "index.js",
   "browserify": "index.js",
   "directories": {
     "lib": ".",
-    "example": "example",
     "test": "test"
   },
   "scripts": {
@@ -14,6 +13,7 @@
   },
   "dependencies": {
     "Base64": "~0.2.0",
+    "eventemitter3": "^4.0.7",
     "inherits": "~2.0.1"
   },
   "devDependencies": {
